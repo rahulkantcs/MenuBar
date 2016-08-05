@@ -1,0 +1,127 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\000033}}
+body {
+  background: #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\000036}}
+header {
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\000039}}
+  header .app-header {
+    font-size: 40px;
+    color: #13585f;
+    border-bottom: 1px solid;
+    -webkit-font-feature-settings: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    -moz-font-feature-settings: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    -ms-font-feature-settings: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-feature-settings: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000314}}
+  header .page-header {
+    color: #b52626;
+    display: block;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000322}}
+.main-contant {
+  background: #fff;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000336}}
+.img-section {
+  padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000338}}
+  .img-section .img {
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000340}}
+    .img-section .img img {
+      max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000344}}
+.img-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000350}}
+.img-details {
+  padding-bottom: 10px;
+  text-align: justify;
+  margin: 10px 0px;
+  border-bottom: 1px solid #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000356}}
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  font-size: 30px;
+  color: purple;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000364}}
+#menu-check {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000367}}
+  #menu-check:checked + .main #parent-menu .menu-bar {
+    left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000369}}
+  #menu-check:checked + .main #parent-menu .menu-btn {
+    left: 210px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000371}}
+  #menu-check:checked + .main .main-contant {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    margin-top: -80px;
+    height: 690px;
+    overflow: scroll; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000376}}
+  #menu-check:checked + .main header {
+    padding-left: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000379}}
+.menu-bar {
+  background: purple;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: -200px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000385}}
+  .menu-bar ul {
+    list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000387}}
+    .menu-bar ul li {
+      cursor: pointer;
+      font-size: 20px;
+      padding: 10px;
+      color: #ddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Rahul\/Projects\/WorkingProject\/menuExample\/style\.sass}line{font-family:\0000392}}
+      .menu-bar ul li:hover {
+        color: #fff;
+        margin-left: 4px; }
+
+/*# sourceMappingURL=style.css.map */

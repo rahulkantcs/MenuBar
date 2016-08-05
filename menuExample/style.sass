@@ -1,0 +1,95 @@
+@import "bourbon/bourbon"
+
+body
+	background: #ddd
+	
+header
+	+transition()
+	text-align: center
+	.app-header
+		font-size: 40px
+		color: #13585f
+		border-bottom: 1px solid
+		@include font-feature-settings("Palatino Linotype", "Book Antiqua", Palatino, serif)
+	.page-header
+		color: #b52626
+		display: block
+		margin-top: 10px
+		font-size: 25px
+		font-weight: bold
+		
+
+.main-contant
+	background: #fff
+	+transition()
+	max-width: 900px
+	margin: 0 auto
+	padding: 20px
+	margin-top: 20px
+	position: relative
+	z-index: 1
+	+transform(scale(1))
+	+transform-origin(right center)
+
+
+
+.img-section
+	padding: 10px
+	.img
+		margin: 0 auto
+		img
+			max-width: 100%
+	
+	
+.img-header
+	font-size: 20px
+	font-weight: bold
+	margin: 10px 0px
+	
+	
+.img-details
+	padding-bottom: 10px
+	text-align: justify
+	margin: 10px 0px
+	border-bottom: 1px solid #aaa
+	
+.menu-btn
+	+position(fixed,20px 0 0 20px)
+	+transition()
+	font-size: 30px
+	color: purple
+	text-decoration: none
+	
+	
+#menu-check
+	display: none
+	&:checked+.main
+		#parent-menu .menu-bar
+			left: 0px
+		#parent-menu .menu-btn
+			left: 210px
+		.main-contant
+			+transform(scale(0.7))
+			margin-top: -80px
+			height: 690px
+			overflow: scroll
+		header
+			padding-left: 200px
+	
+.menu-bar
+	background: purple
+	+position(fixed,0px 0 0 -200px)
+	+transition()
+	width: 200px
+	
+	ul
+		list-style-type: none
+		li	
+			cursor: pointer
+			font-size: 20px
+			padding: 10px
+			color: #ddd
+			&:hover
+				color: #fff
+				margin-left: 4px
+			
